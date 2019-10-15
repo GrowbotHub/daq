@@ -1,5 +1,10 @@
 # Scripts for Dataset Acquisition
 
+## Verify if camera works
+```
+raspistill -o image.jpg
+```
+
 ## Quick start
 Create systemd configuration file and enable the service:
 ```
