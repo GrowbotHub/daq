@@ -7,6 +7,7 @@ sudo bash -c "cat > ${SERVICE_PATH}" << EOF
 Description=GrowbotHub DAQ
 
 [Service]
+User=pi
 ExecStart=/usr/bin/python3 $(pwd)/daq.py
 
 [Install]
