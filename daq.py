@@ -4,7 +4,7 @@ from datetime import datetime
 import os
 
 DIST = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'images')
-PERIOD_HOURS = 0.01
+PERIOD_HOURS = 1
 
 
 def get_filepath():

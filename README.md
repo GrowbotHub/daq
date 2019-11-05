@@ -5,6 +5,11 @@
 raspistill -o image.jpg
 ```
 
+## Dependencies
+```
+apt install python3-gpiozero python3-smbus python3-picamera
+```
+
 ## Quick start
 Create systemd configuration file and enable the service:
 ```
